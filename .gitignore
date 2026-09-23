@@ -1,0 +1,17 @@
+# Datos de Kaggle incluidos para reproducir el análisis.
+# Solo se versionan train.csv y su diccionario; test.csv no interviene en la tarea.
+data/raw/*
+!data/raw/house-prices/
+data/raw/house-prices/*
+!data/raw/house-prices/train.csv
+!data/raw/house-prices/data_description.txt
+
+# Resultados regenerables y temporales: no se publican.
+data/processed/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.env
+.kaggle/
+*.log
