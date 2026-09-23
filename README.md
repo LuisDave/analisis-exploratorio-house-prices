@@ -25,7 +25,7 @@ No es necesario conocer el proyecto original ni usar herramientas externas para 
 
 La fuente es el dataset [House Prices dataset](https://www.kaggle.com/datasets/lespin/house-prices-dataset), una distribución del conjunto **House Prices: Advanced Regression Techniques** de Kaggle.
 
-El proyecto conserva los dos insumos necesarios para reproducir el análisis:
+El proyecto incluye los dos insumos utilizados en el análisis:
 
 - `data/raw/house-prices/train.csv`: 1,460 viviendas y 81 variables.
 - `data/raw/house-prices/data_description.txt`: diccionario técnico original de las variables.
@@ -71,7 +71,7 @@ El notebook contiene esta exploración paso a paso. El script de preparación, e
 └── README.md
 ```
 
-## Reproducción local
+## Instalación y ejecución local
 
 Requiere Python 3.10 o posterior.
 
