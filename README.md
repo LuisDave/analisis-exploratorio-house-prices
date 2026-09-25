@@ -32,9 +32,9 @@ El proyecto incluye los dos insumos utilizados en el análisis:
 
 `SalePrice` se usa como variable objetivo. `Id` se excluye de los predictores porque solo identifica registros. El dataset combina variables numéricas y categóricas; los faltantes numéricos se concentran principalmente en `LotFrontage`, `MasVnrArea` y `GarageYrBlt`.
 
-## Cómo funciona, en términos simples
+## Flujo de preparación
 
-El script de preparación sigue una secuencia fácil de revisar:
+El script de preparación sigue una secuencia documentada:
 
 1. Lee los datos y reconoce tanto celdas vacías como la etiqueta `NA` como valores faltantes.
 2. Separa `SalePrice` como variable dependiente (`y`) y conserva las demás características como predictores (`X`), excepto `Id`.
@@ -47,7 +47,7 @@ Los archivos generados no se versionan: pueden recrearse en cualquier momento a 
 
 ## Análisis realizado
 
-En términos técnicos, el proyecto trabaja en cuatro capas:
+El análisis se organiza en cuatro componentes:
 
 1. **Perfilado de datos.** Cuenta registros, identifica el tipo de cada columna, busca duplicados y mide los valores faltantes.
 2. **Preparación.** Completa faltantes numéricos con la media de su propia variable y transforma las categorías en códigos o columnas binarias (variables dummy).
