@@ -78,9 +78,9 @@ Requiere Python 3.10 o posterior.
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
-py -m pip install -r requirements.txt
-py src\prepare_data.py
-jupyter lab
+python -m pip install -r requirements.txt
+python src\prepare_data.py
+python -m jupyter lab
 ```
 
 Al abrir JupyterLab, ejecuta `notebooks/01_house_prices_eda.ipynb` desde la primera celda. El notebook encuentra automáticamente la raíz del proyecto tanto si se abre desde la carpeta principal como desde `notebooks/`.
